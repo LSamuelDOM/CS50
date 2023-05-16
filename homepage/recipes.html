@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <!-- Head -->
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="scripts.js"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>How to cook</title>
+    </head>
+    <!-- Body -->
+    <body>
+        <!-- Header or topnav -->
+        <header>
+            <div id="headerBar">
+                <div>
+                    <a href="index.html">Home</a>
+                </div>
+                <div>
+                    <a href="menu.html">Menu</a>
+                </div>
+                <div>
+                    <a href="recipes.html">Recipes</a>
+                </div>
+                <div>
+                    <a href="faq.html">FAQ</a>
+                </div>
+                <div>
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+        </header>
+        <!-- Main Body -->
+        <main>
+            <!-- Filter buttons -->
+            <div id="filter">
+                <button onclick="hideOrNot('brazilian')" type='button'>Brazilian</button>
+                <button onclick="hideOrNot('pizza')" type='button'>Pizza</button>
+                <button onclick="hideOrNot('salad')" type='button'>Salad</button>
+                <button onclick="hideOrNot('juice')" type='button'>Juices</button>
+            </div>
+            <!-- All recipes div -->
+            <div id="recipes">
+                <h2>All Recipes:</h2>
+                <!-- Brazilian div -->
+                <div id="brazilian">
+                    <h3>Brazilian Food:</h3>
+                    <!-- Feijoada div -->
+                    <div id="feijoada">
+                        <h4>Feijoada</h4>
+                        <img src="img/feijoada.png" alt="Feijoada" class="img-responsive"><img>
+                        <p>Ingredients</p>
+                        <ul>
+                            <li>1 pound (450g) dry black beans</li>
+                            <li>4 tablespoons extra virgin olive oil</li>
+                            <li>1 pound (450g) pork shoulder</li>
+                            <li>2 large onions, sliced</li>
+                            <li>1 head garlic, peeled and chopped</li>
+                            <li>1 pound (450g) carne seca or corned beef, cut into chunks</li>
+                            <li>1/2 pound (225g) fresh sausages, such as chorizo or Italian sausage</li>
+                            <li>1 pound (450g) smoked sausage, such as linguica or kielbasa</li>
+                            <li>1 smoked ham hock or shank</li>
+                            <li>3 to 4 bay leaves</li>
+                            <li>Water</li>
+                            <li>1 14.5 ounce can (411g) crushed tomatoes</li>
+                            <li>Kosher salt</li>
+                        </ul>
+                        <p>How to do:</p>
+                        <ol>
+                            <li> Soak the beans in hot water: Pour boiling water over the black beans and let them sit while you prepare the rest of the stew.</li>
+                            <li> Brown the pork shoulder: Heat the olive oil in a large pot over medium-high heat and brown the pork shoulder. When the meat has browned, remove the meat from the pot, set aside.</li>
+                            <li> Brown the onions and add garlic: Add the onions to the pot. Brown them, stirring occasionally, scraping up any browned bits from the bottom of the pot. Sprinkle a little salt over the onions and add the garlic. Stir well and sauté 2 more minutes.</li>
+                            <li> Add the meat, bay leaves, and water: Add back the pork shoulder and the other meats. Add enough water to cover all ingredients. Add the bay leaves, cover, and bring to a simmer. Cook gently for 1 hour.</li>
+                            <li> Add the soaked black beans: Drain the black beans from their soaking liquid and add them to the stew. Simmer gently, covered, until the beans are tender, about an hour and a half.</li>
+                            <li> Add the tomatoes: Add the tomatoes, stir well and taste for salt, adding if it's needed. Simmer this, uncovered, until the meat begins to fall off the ham hock, which will probably take 2 to 3 hours. Serve with white rice and hot sauce. A classic side dish would be sautéed collard greens.</li>
+                        </ol>
+                    </div>
+                    <!-- CheeseBread div -->
+                    <div id="cheeseBread">
+                        <h4>Cheese Bread</h4>
+                        <img src="img/cheesebread.jpg" alt="CheeseBread" class="img-responsive"><img>
+                        <p>Ingredients</p>
+                        <ul>
+                            <li>½ cup olive oil or butter</li>
+                            <li>⅓ cup water</li>
+                            <li>⅓ cup milk or soy milk</li>
+                            <li>1 teaspoon salt</li>
+                            <li>2 cups tapioca flour</li>
+                            <li>2 teaspoons minced garlic</li>
+                            <li>⅔ cup freshly grated Parmesan cheese</li>
+                            <li>2 beaten eggs</li>
+                        </ul>
+                        <p>How to do:</p>
+                        <ol>
+                            <li>Preheat the oven to 375 degrees F (190 degrees C).</li>
+                            <li>Combine olive oil, water, milk, and salt in a large saucepan and place over high heat. Bring to a boil and immediately remove from the heat.</li>
+                            <li>Stir in tapioca flour and garlic, stirring until smooth. Set aside to rest for 10 to 15 minutes.</li>
+                            <li>Stir cheese and eggs into tapioca mixture until combined; the dough will be chunky, like cottage cheese.</li>
+                            <li>Drop dough by 1/4 cup-size balls onto an ungreased baking sheet.</li>
+                            <li>Bake in the preheated oven until the tops are lightly browned, 15 to 20 minutes.</li>
+                        </ol>
+                    </div>
+                    <!-- Moqueca div -->
+                    <div id="Moqueca">
+                        <h4>Moqueca (Fish Stew)</h4>
+                        <img src="img/moqueca.jpg" alt="Moqueca" class="img-responsive"><img>
+                        <p>Ingredients</p>
+                        <ul>
+                            <p>Soup</p>
+                            <li>1 1/2 to 2 pounds of fillets of firm white fish such as halibut, swordfish, or cod, rinsed in cold water, pin bones removed, cut into large portions</li>
+                            <li>3 cloves garlic, minced</li>
+                            <li>4 tablespoons lime or lemon juice</li>
+                            <li>Salt</li>
+                            <li>Freshly ground black pepper</li>
+                            <li>Extra virgin olive oil</li>
+                            <li>1 cup chopped spring onion, or 1 medium yellow onion, chopped or sliced</li>
+                            <li>1/4 cup green onion greens, chopped</li>
+                            <li>1/2 yellow and 1/2 red bell pepper, seeded, de-stemmed, chopped (or sliced)</li>
+                            <li>2 cups chopped (or sliced) tomatoes</li>
+                            <li>1 tablespoon paprika (Hungarian sweet)</li>
+                            <li>Pinch red pepper flakes</li>
+                            <li>1 large bunch of cilantro, chopped with some set aside for garnish</li>
+                            <li>1 14-ounce can coconut milk</li>
+                        </ul>
+                        <ul>
+                            <p>Rice</p>
+                            <li>1 tablespoon extra virgin olive oil</li>
+                            <li>1/2 onion, chopped</li>
+                            <li>1 clove garlic, minced</li>
+                            <li>1 cup white rice</li>
+                            <li>1 3/4 cups boiling water (check your rice package for the appropriate ratio of liquid to rice for the type of rice you are using)</li>
+                            <li>1 teaspoon salt</li>
+                        </ul>
+                        <p>How to do:</p>
+                        <ol>
+                            <li> Coat fish with garlic and lime juice. Place fish pieces in a bowl, add the minced garlic and lime juice so that the pieces are well coated. Sprinkle generously all over with salt and pepper. Keep chilled while preparing the rest of the soup. </li>
+                            <li> Make rice for serving with soup. If you are planning on serving the soup with rice, start on the rice. Bring a couple cups of water to a boil. Heat one Tbsp of olive oil in a medium saucepan on medium high heat. Add the chopped 1/2 onion and cook, stirring, until the onion is translucent. Add the garlic and cook for 30 seconds more, until the garlic is fragrant. Add the raw white rice and stir to coat completely with the oil, onions, and garlic. Add the boiling water. (The amount depends on your brand of rice, check the package. If no amounts are given, add 1 3/4 cup of water for every cup of rice.) Stir in 1 teaspoon of salt. Bring to a simmer, then lower the heat, cover, and let cook for 15 minutes, after which, remove from heat until ready to serve with the soup. </li>
+                            <li> Start cooking the onion, bell pepper, tomatoes, onion greens. In a large covered pan (such as a Dutch oven), coat the bottom with about 2 Tbsp of olive oil and heat on medium heat. Add the chopped onion and cook a few minutes until softened. Add the bell pepper, paprika, and red pepper flakes. Sprinkle generously with salt and pepper. (At least a teaspoon of salt.) Cook for a few minutes longer, until the bell pepper begins to soften. Stir in the chopped tomatoes and onion greens. Bring to a simmer and cook for 5 minutes, uncovered. Stir in the chopped cilantro.</li>
+                            <li> Layer vegetables with fish, add coconut milk. Use a large spoon to remove about half of the vegetables (you'll put them right back in). Spread the remaining vegetables over the bottom of the pan to create a bed for the fish. Arrange the fish pieces on the vegetables. Sprinkle with salt and pepper. Then add back the previously removed vegetables, covering the fish. Pour coconut milk over the fish and vegetables. </li>
+                            <li> Simmer, cook, adjust seasonings. Bring soup to a simmer, reduce the heat, cover, and let simmer for 15 minutes. Taste and adjust seasonings. You may need to add more salt (likely), lime or lemon juice, paprika, pepper, or chili flakes to get the soup to the desired seasoning for your taste. Garnish with cilantro. Serve with rice or with crusty bread. </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- Pizza div -->
+                <div id="pizza">
+                    <h3>Pizza:</h3>
+                    <!-- Homemade pizza div -->
+                    <div id="homeMade">
+                        <h4>Homemade Pizza</h4>
+                        <img src="img/pizza.png" alt="Pizza" class="img-responsive"><img>
+                        <p>Ingredients</p>
+                        <ul>
+                            <p>For the pizza dough</p>
+                            <li>1 1/2 cups (355 ml) warm water (105°F-115°F)
+                            <li>1 package (2 1/4 teaspoons) active dry yeast
+                            <li>3 3/4 cups (490g) bread flour
+                            <li>2 tablespoons extra virgin olive oil (omit if cooking pizza in a wood-fired pizza oven)
+                            <li>2 teaspoons kosher salt
+                            <li>1 teaspoon sugar
+
+                        </ul>
+                        <ul>
+                            <p>For making the pizza and toppings</p>
+                            <li>Extra virgin olive oil</li>
+                            <li>Cornmeal (to help slide the pizza onto the pizza stone)</li>
+                            <li>Tomato sauce (smooth or pureed)</li>
+                            <li>Firm mozzarella cheese, grated</li>
+                            <li>Fresh soft mozzarella cheese, separated into small clumps</li>
+                            <li>Fontina cheese, grated</li>
+                            <li>Parmesan cheese, grated</li>
+                            <li>Feta cheese, crumbled</li>
+                            <li>Mushrooms, very thinly sliced if raw, otherwise first sautéed</li>
+                            <li>Bell peppers, stems and seeds removed, very thinly sliced</li>
+                            <li>Italian pepperoncini, thinly sliced</li>
+                            <li>Italian sausage, cooked ahead and crumbled</li>
+                            <li>Sliced black olives</li>
+                            <li>Chopped fresh basil</li>
+                            <li>Baby arugula, tossed in a little olive oil, added as pizza comes out of the oven</li>
+                            <li>Pesto</li>
+                            <li>Pepperoni, thinly sliced</li>
+                            <li>Onions, thinly sliced raw or caramelized</li>
+                            <li>Ham, thinly sliced</li>
+                        </ul>
+                        <p>How to do:</p>
+                        <ol>
+                            <p>Dough</p>
+                            <li>Proof the yeast: Place the warm water in the large bowl of a heavy duty stand mixer. Sprinkle the yeast over the warm water and let it sit for 5 minutes until the yeast is dissolved. After 5 minutes stir if the yeast hasn't dissolved completely. The yeast should begin to foam or bloom, indicating that the yeast is still active and alive. (Note that if you are using "instant yeast" instead of "active yeast", no proofing is required. Just add to the flour in the next step.)</li>
+                            <li>Make and knead the pizza dough: Add the flour, salt, sugar, and olive oil, and using the mixing paddle attachment, mix on low speed for a minute. Then replace the mixing paddle with the dough hook attachment. Knead the pizza dough on low to medium speed using the dough hook about 7-10 minutes. If you don't have a mixer, you can mix the ingredients together and knead them by hand. The dough should be a little sticky, or tacky to the touch. If it's too wet, sprinkle in a little more flour.</li>
+                            <li> Let the dough rise: Spread a thin layer of olive oil over the inside of a large bowl. Place the pizza dough in the bowl and turn it around so that it gets coated with the oil. At this point you can choose how long you want the dough to ferment and rise. A slow fermentation (24 hours in the fridge) will result in more complex flavors in the dough. A quick fermentation (1 1/2 hours in a warm place) will allow the dough to rise sufficiently to work with. Cover the dough with plastic wrap. For a quick rise, place the dough in a warm place (75°F to 85°F) for 1 1/2 hours. For a medium rise, place the dough in a regular room temperature place (your kitchen counter will do fine) for 8 hours. For a longer rise, chill the dough in the refrigerator for 24 hours (no more than 48 hours). The longer the rise (to a point) the better the flavor the crust will have. </li>
+                        </ol>
+                        <ol>
+                            <p>Pizza</p>
+                            <li>Preheat the pizza stone (or pizza pan or baking sheet): Place a pizza stone on a rack in the lower third of your oven. Preheat the oven to 475°F for at least 30 minutes, preferably an hour. If you don't have a pizza stone, you can use a pizza pan or a thick baking sheet; you need something that will not warp at high temperatures.</li>
+                            <li>Divide the dough into 2 balls: Remove the plastic cover from the dough. Dust your hands with flour and push the dough down so it deflates a bit. Divide the dough in half. Form 2 round balls of dough. Place each in its own bowl, cover with plastic and let sit for 15 minutes (or up to 2 hours).</li>
+                            <li>Prep the toppings: Prepare your desired toppings. Note that you are not going to want to load up each pizza with a lot of toppings as the crust will end up not crisp that way. About a third a cup each of tomato sauce and cheese would be sufficient for one pizza. One to two mushrooms thinly sliced will cover a pizza.</li>
+                            <li>Flatten the dough ball, and stretch out into a round: Working one ball of dough at a time, take one ball of dough and flatten it with your hands on a lightly floured work surface. Starting at the center and working outwards, use your fingertips to press the dough to 1/2-inch thick. Turn and stretch the dough until it will not stretch further. Let the dough relax 5 minutes and then continue to stretch it until it reaches the desired diameter—10 to 12 inches. Treat the dough gently! You can also hold up the edges of the dough with your fingers, letting the dough hang and stretch, while working around the edges of the dough. If a hole appears in your dough, place the dough on a floured surface and push the dough back together to seal the hole.Use your palm to flatten the edge of the dough where it is thicker. Pinch the edges if you want to form a lip.</li>
+                            <li>Brush the dough top with olive oil: Use your fingertips to press down and make dents along the surface of the dough to prevent bubbling. Brush the top of the dough with olive oil (to prevent it from getting soggy from the toppings). Let rest another 10 to 15 minutes. Repeat with the second ball of dough. </li>
+                            <li>Sprinkle the pizza peel with cornmeal, put flattened dough on top: Lightly sprinkle your pizza peel (or flat baking sheet) with cornmeal. (The corn meal will act as little ball bearings to help move the pizza from the pizza peel into the oven.) Transfer one prepared flattened dough to the pizza peel. If the dough has lost its shape in the transfer, lightly shape it to the desired dimensions. </li>
+                            <li>Spread with tomato sauce and sprinkle with toppings: Spoon on the tomato sauce, sprinkle with cheese, and place your desired toppings on the pizza. Be careful not to overload the pizza with too many toppings, or your pizza will be soggy.</li>
+                            <li>Slide pizza into the oven: Sprinkle some cornmeal on the baking stone in the oven (watch your hands, the oven is hot!). Gently shake the peel to see if the dough will easily slide, if not, gently lift up the edges of the pizza and add a bit more cornmeal. Slide the pizza off of the peel and onto the baking stone in the oven. </li>
+                            <li>Bake: Bake pizza in the 475°F oven, one at a time, until the crust is browned and the cheese is golden, about 10 to 15 minutes. If you want, toward the end of the cooking time you can sprinkle on a little more cheese.</li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- Salad div -->
+                <div id="salad">
+                    <h3>Salad:</h3>
+                    <!-- Vinaigrette div -->
+                    <div id="vinaigrette">
+                        <h4>Vinaigrette</h4>
+                        <img src="img/vinaigrette.jpg" alt="Vinaigrette" class="img-responsive"><img>
+                        <p>Ingredients</p>
+                        <ul>
+                            <li>3 big tomatoes, seeded and diced</li>
+                            <li>1 onion, diced</li>
+                            <li>1 green bell pepper, seeded and diced</li>
+                            <li>¼ cup (5 grams) fresh parsley, chopped</li>
+                            <li>¼ cup (25 grams) scallions, chopped</li>
+                            <li>2 tablespoons cilantro, chopped</li>
+                            <li>⅓ cup (80 milliliters) white vinegar</li>
+                            <li>½ cup (125 milliliters) olive oil</li>
+                            <li>Salt and pepper to taste</li>
+                        </ul>
+                        <p>How to do:</p>
+                        <ol>
+                            <li>In a large bowl, mix all the vegetables together.</li>
+                            <li>Add the vinegar and oil and season with salt and pepper. Mix them well.</li>
+                            <li>Last, add the cilantro and parsley and stir it gently.</li>
+                            <li>Let it rest for half an hour in the fridge and serve.</li>
+                        </ol>
+                    </div>
+                    <!-- Caesar div -->
+                    <div id="caesar">
+                        <h4>Caesar</h4>
+                        <img src="img/caesar.jpg" alt="Caesar" class="img-responsive"><img>
+                        <p>Ingredients</p>
+                        <ul>
+                            <p>Dressing</p>
+                            <li>6 anchovy fillets packed in oil, drained</li>
+                            <li>1 small garlic clove</li>
+                            <li>Kosher salt</li>
+                            <li>2 large egg yolks</li>
+                            <li>2 tablespoons fresh lemon juice, plus more</li>
+                            <li>¾ teaspoon Dijon mustard</li>
+                            <li>2 tablespoons olive oil</li>
+                            <li>½ cup vegetable oil</li>
+                            <li>3 tablespoons finely grated Parmesan</li>
+                            <li>Freshly ground black pepper</li>
+                        </ul>
+                        <ul>
+                            <p>Croutons</p>
+                            <li>3 cups torn 1" pieces country bread, with crusts</li>
+                            <li>3 tablespoons olive oil</li>
+                        </ul>
+                        <ul>
+                            <p>Assembly</p>
+                            <li>3 romaine hearts, leaves separated</li>
+                            <li>Parmesan, for serving</li>
+                        </ul>
+                        <p>How to do:</p>
+                        <ol>
+                            <li>Chop together anchovy fillets, garlic, and pinch of salt. Use the side of a knife blade to mash into a paste, then scrape into a medium bowl. Whisk in egg yolks, 2 Tbsp. lemon juice, and mustard. Adding drop by drop to start, gradually whisk in olive oil, then vegetable oil; whisk until dressing is thick and glossy. Whisk in Parmesan. Season with salt, pepper, and more lemon juice, if desired. DO AHEAD: Can be made 1 day ahead.</li>
+                            <li>Preheat oven to 375°. Toss bread with olive oil on a baking sheet; season with salt and pepper. Bake, tossing occasionally, until golden, 10–15 minutes.</li>
+                            <li>Place whole romaine leaves (for the ideal mix of crispness, surface area, and structure) in a large bowl. Use a vegetable peeler to thinly shave a modest amount of Parmesan (a mound of grated Parmesan may look impressive, but all that clumpy cheese mutes the dressing). Use your hands to gently toss together the lettuce, croutons, and dressing. Top with the shaved Parm.</li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- Juices div -->
+                <div id="juice">
+                    <h3>Juices:</h3>
+                    <!-- Lemonade div -->
+                    <div id="lemonade">
+                        <h4>Lemonade</h4>
+                        <img src="img/lemonade.jpg" alt="lemonade" class="img-responsive"><img>
+                        <p>Ingredients</p>
+                        <ul>
+                            <li>2 limes</li>
+                            <li>3 cups water</li>
+                            <li>½ cup sugar</li>
+                            <li>3 tablespoons sweetened condensed milk</li>
+                            <li>ice cubes</li>
+                        </ul>
+                        <p>How to do:</p>
+                        <ol>
+                            <li>Wash limes thoroughly. Cut off the ends and slice into eight wedges. </li>
+                            <li>Place limes in a blender with water, sugar, sweetened condensed milk, and ice; pulse 5 times, or until smooth. Strain through a fine mesh strainer to remove rinds. Serve over ice.</li>
+                        </ol>
+                    </div>
+                    <!-- Orange Juice div -->
+                    <div id="orange">
+                        <h4>Orange Juice</h4>
+                        <img src="img/orange.jpg" alt="orangeJuice" class="img-responsive"><img>
+                        <p>Ingredients</p>
+                        <ul>
+                            <li>4 oranges</li>
+                        </ul>
+                        <p>How to do:</p>
+                        <ol>
+                            <li>Lightly smack each orange on the counter. Cut each orange in half and squeeze juice into a glass.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <!-- Copyright Bar -->
+        <footer>
+            <div id="footerBar">
+                Copyright &#169; <a href="index.html">How to cook</a> -2023
+            </div>
+        </footer>
+    </body>
+</html>

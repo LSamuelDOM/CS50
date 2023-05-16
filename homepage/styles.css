@@ -1,0 +1,201 @@
+/* HTML Tag */
+body {
+    background-color: #F4D8B3;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Class */
+/* Division */
+.division {
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to right, #888903 , #4D5903);
+}
+
+/* TextField */
+.textField {
+    margin: 80px 0px;
+    width: 80%;
+    text-align: center;
+}
+
+.textField h3 {
+    color: #888903;
+}
+
+.textField h4 {
+    margin: 20px 0px 0px 0px;
+}
+
+/* Id */
+/* Header or topnav */
+#headerBar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #583F26;
+}
+
+#headerBar div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+#headerBar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: #888903;
+}
+
+#headerBar a:hover {
+    background-color: #4D5903;
+}
+
+/* Main Body */
+#mainBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("img/background.png");
+    width: 100%;
+}
+
+#mainBody h1 {
+    display: flex;
+    margin: 80px 0px 20px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #888903;
+    color: white;
+}
+
+#mainBody button {
+    display: block;
+    width: 240px;
+    margin: 30px 0px;
+    background-color: #888903;
+    color: #F2F2F2;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+}
+
+#mainBody button:hover {
+    background-color: #4D5903;
+}
+
+/* Copyright Bar */
+#footerBar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #583F26;
+    color: white;
+}
+
+#footerBar a {
+    color: #888903;
+    text-decoration: none;
+}
+
+/* Menu -> menu.html */
+#menu {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu h2 {
+    color: #888903;
+}
+
+#menu h3 {
+    color: #4D5903;
+}
+
+#menu a {
+    background-color: #583F26;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#menu img {
+    width: 100%;
+}
+
+/* Recipes -> recipes.html */
+#recipes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+#recipes div {
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#recipes p {
+    color: #888903;
+}
+
+#recipes img {
+    width: 80%;
+}
+
+/* Filter -> recipes.html */
+#filter {
+    margin: 20px 0px;
+}
+
+#filter button {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: #888903;
+    margin: 0px 5px;
+    border: none;
+}
+
+#filter button:hover {
+    background-color: #4D5903;
+}
